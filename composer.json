@@ -35,7 +35,8 @@
     "autoload": {
         "psr-4": {
             "ElaborateCode\\AlgerianStates\\": "src",
-            "ElaborateCode\\AlgerianStates\\Database\\": "database"
+            "ElaborateCode\\AlgerianStates\\Database\\": "database",
+            "ElaborateCode\\AlgerianStates\\Database\\Seeders": "database\\seeders"
         }
     },
     "autoload-dev": {
