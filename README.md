@@ -5,7 +5,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elaborate-code/laravel-algerian-states/run-tests?label=Tests&style=for-the-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elaborate-code/laravel-algerian-states/Fix%20PHP%20code%20style%20issues?label=Code%20Style&style=for-the-badge)
 
-https://banners.beyondco.de/Algerian%20states.png?theme=dark&packageManager=composer+require&packageName=elaborate-code%2Flaravel-algerian-states&pattern=architect&style=style_1&description=Add+Algerian+states+table+to+Laravel&md=1&showWatermark=0&fontSize=100px&images=database
+![banner](https://banners.beyondco.de/Algerian%20states.png?theme=dark&packageManager=composer+require&packageName=elaborate-code%2Flaravel-algerian-states&pattern=architect&style=style_1&description=Add+Algerian+states+table+to+Laravel&md=1&showWatermark=0&fontSize=100px&images=database)
 
 Algerian states migration and seeder for Laravel applications
 
