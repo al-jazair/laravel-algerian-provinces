@@ -19,7 +19,7 @@ class WilayaSeeder extends Seeder
             $id = "_$i";
             $wilayas[$i]['id'] = $i;
             // $wilayas[$i]['name'] = WilayaEnum::wilaya($i);
-            $wilayas[$i]['name'] = constant(WilayaEnum::class . "::$id")->wilaya();
+            $wilayas[$i]['name'] = constant(WilayaEnum::class."::$id")->wilaya();
         }
 
         DB::table('wilayas')->insert($wilayas);
