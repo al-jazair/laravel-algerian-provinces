@@ -45,10 +45,15 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'table_name' => null, // defaults to wilayas
+    'column_name' => [
+        'wilaya_fr_name' => null, // defaults to fr_name
+        'wilaya_ar_name' => null, // defaults to ar_name
+    ],
 ];
 ```
 
-That allows you to rename the `table` before running the migrations.
+That allows you to rename the `table` and `columns` names before running the migrations.
 
 ## Usage
 
@@ -73,7 +78,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ElaborateCode\AlgerianProvinces\Database\Seeders\WilayaSeeder::class
         ]);
-
+    }
 }
 ```
 
