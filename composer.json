@@ -61,7 +61,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ElaborateCode\\AlgerianProvinces\\AlgerianProvincesServiceProvider"
+                "ElaborateCode\\AlgerianProvinces\\WilayaServiceProvider"
             ],
             "aliases": {}
         }
