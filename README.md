@@ -17,10 +17,17 @@ Install the package via composer:
 composer require medilies/laravel-algerian-provinces
 ```
 
-Publish and run the migrations with:
+Publish the migration:
 
 ```bash
 php artisan vendor:publish --tag="algerian-provinces-migrations"
+```
+
+You may need to rename the migration to something like `2014_10_12_200000_create_wilayas_table.php` to make it run automatically with the first migrations.
+
+Run the migrations:
+
+```bash
 php artisan migrate
 ```
 
