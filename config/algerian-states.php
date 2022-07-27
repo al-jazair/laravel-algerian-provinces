@@ -1,4 +1,4 @@
 <?php
 
-// config for ElaborateCode\AlgerianStates
+// config for ElaborateCode\AlgerianProvinces
 return [];

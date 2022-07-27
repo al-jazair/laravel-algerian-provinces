@@ -19,7 +19,7 @@
     verbose="true"
 >
     <testsuites>
-        <testsuite name="ElaborateCode\AlgerianStates Test Suite">
+        <testsuite name="ElaborateCode\AlgerianProvinces Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

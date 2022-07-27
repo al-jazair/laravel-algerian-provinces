@@ -1,5 +1,5 @@
 <?php
 
-use ElaborateCode\AlgerianStates\Tests\TestCase;
+use ElaborateCode\AlgerianProvinces\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `laravel-algerian-states` will be documented in this file.
+All notable changes to `laravel-algerian-provinces` will be documented in this file.

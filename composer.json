@@ -1,12 +1,12 @@
 {
-    "name": "elaborate-code/laravel-algerian-states",
-    "description": "Add a table of algerian states to your project",
+    "name": "elaborate-code/laravel-algerian-provinces",
+    "description": "Add a table of algerian provinces to your project",
     "keywords": [
         "laravel",
         "seeder",
-        "Algerian states"
+        "Algerian provinces"
     ],
-    "homepage": "https://github.com/elaborate-code/laravel-algerian-states",
+    "homepage": "https://github.com/elaborate-code/laravel-algerian-provinces",
     "license": "MIT",
     "authors": [
         {
@@ -34,15 +34,15 @@
     },
     "autoload": {
         "psr-4": {
-            "ElaborateCode\\AlgerianStates\\": "src",
-            "ElaborateCode\\AlgerianStates\\Enum\\": "enum",
-            "ElaborateCode\\AlgerianStates\\Database\\": "database",
-            "ElaborateCode\\AlgerianStates\\Database\\Seeders\\": "database\\seeders"
+            "ElaborateCode\\AlgerianProvinces\\": "src",
+            "ElaborateCode\\AlgerianProvinces\\Enum\\": "enum",
+            "ElaborateCode\\AlgerianProvinces\\Database\\": "database",
+            "ElaborateCode\\AlgerianProvinces\\Database\\Seeders\\": "database\\seeders"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ElaborateCode\\AlgerianStates\\Tests\\": "tests"
+            "ElaborateCode\\AlgerianProvinces\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,7 +61,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ElaborateCode\\AlgerianStates\\AlgerianStatesServiceProvider"
+                "ElaborateCode\\AlgerianProvinces\\AlgerianProvincesServiceProvider"
             ],
             "aliases": {}
         }

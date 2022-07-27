@@ -1,6 +1,6 @@
 <?php
 
-namespace ElaborateCode\AlgerianStates;
+namespace ElaborateCode\AlgerianProvinces;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -15,7 +15,7 @@ class WilayaServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('algerian-states')
+            ->name('algerian-provinces')
             // ->hasConfigFile()
             ->hasMigration('create_wilayas_table');
     }

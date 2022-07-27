@@ -1,6 +1,6 @@
 <?php
 
-namespace ElaborateCode\AlgerianStates\Models;
+namespace ElaborateCode\AlgerianProvinces\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

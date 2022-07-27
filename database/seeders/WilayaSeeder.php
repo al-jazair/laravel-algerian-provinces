@@ -1,6 +1,6 @@
 <?php
 
-namespace ElaborateCode\AlgerianStates\Database\Seeders;
+namespace ElaborateCode\AlgerianProvinces\Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;

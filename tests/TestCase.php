@@ -1,9 +1,9 @@
 <?php
 
-namespace ElaborateCode\AlgerianStates\Tests;
+namespace ElaborateCode\AlgerianProvinces\Tests;
 
-use ElaborateCode\AlgerianStates\Database\Seeders\WilayaSeeder;
-use ElaborateCode\AlgerianStates\WilayaServiceProvider;
+use ElaborateCode\AlgerianProvinces\Database\Seeders\WilayaSeeder;
+use ElaborateCode\AlgerianProvinces\WilayaServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
