@@ -11,11 +11,11 @@ return new class extends Migration
         Schema::create(config('algerian-provinces.table_name') ?? 'wilayas', function (Blueprint $table) {
             $table->id();
 
-            $table->string(config('algerian-provinces.column_name.wilaya_fr_name') ?? 'fr_name');
-            $table->string(config('algerian-provinces.column_name.wilaya_ar_name') ?? 'ar_name');
+            $table->string(config('algerian-provinces.columns_names.wilaya_fr_name') ?? 'fr_name');
+            $table->string(config('algerian-provinces.columns_names.wilaya_ar_name') ?? 'ar_name');
 
-            $table->unique(config('algerian-provinces.column_name.wilaya_fr_name') ?? 'fr_name');
-            $table->unique(config('algerian-provinces.column_name.wilaya_ar_name') ?? 'ar_name');
+            $table->unique(config('algerian-provinces.columns_names.wilaya_fr_name') ?? 'fr_name');
+            $table->unique(config('algerian-provinces.columns_names.wilaya_ar_name') ?? 'ar_name');
         });
     }
 
