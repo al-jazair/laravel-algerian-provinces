@@ -12,8 +12,10 @@ return new class extends Migration
             $table->id();
 
             $table->string('name');
+            $table->string('ar_name');
 
             $table->unique('name');
+            $table->unique('ar_name');
         });
     }
 
