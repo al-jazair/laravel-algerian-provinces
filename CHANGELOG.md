@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-algerian-provinces` will be documented in this file.
 
+## 0.2.0-beta - 2022-07-27
+
+**Full Changelog**: https://github.com/elaborate-code/laravel-algerian-provinces/compare/0.1.0-beta...0.2.0-beta
+
 ## 0.1.0-beta - 2022-07-27
 
 ### What's Changed
