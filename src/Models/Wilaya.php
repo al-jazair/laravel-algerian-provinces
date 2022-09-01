@@ -16,6 +16,6 @@ class Wilaya extends Model
     {
         parent::__construct($attributes);
 
-        $this->rows = require __DIR__ . './../../arrays/wilayas.php';
+        $this->rows = require __DIR__.'./../../arrays/wilayas.php';
     }
 }
