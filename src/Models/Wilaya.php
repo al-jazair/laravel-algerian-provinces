@@ -6,12 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Wilaya extends Model
 {
+    use \Sushi\Sushi;
+
     protected $fillable = [];
+
+    protected $rows = [];
 
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
 
-        $this->table = config('algerian-provinces.table_name') ?? 'wilayas';
+        $this->rows = require __DIR__ . './../../arrays/wilayas.php';
     }
 }

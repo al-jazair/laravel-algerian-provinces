@@ -12,9 +12,9 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
-        $this->seed(WilayaSeeder::class);
+        // $this->seed(WilayaSeeder::class);
     }
 
     protected function getPackageProviders($app)
