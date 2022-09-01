@@ -2,7 +2,6 @@
 
 namespace ElaborateCode\AlgerianProvinces\Tests;
 
-use ElaborateCode\AlgerianProvinces\Database\Seeders\WilayaSeeder;
 use ElaborateCode\AlgerianProvinces\WilayaServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -11,10 +10,6 @@ class TestCase extends Orchestra
     protected function setUp(): void
     {
         parent::setUp();
-
-        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-
-        // $this->seed(WilayaSeeder::class);
     }
 
     protected function getPackageProviders($app)
@@ -26,6 +21,6 @@ class TestCase extends Orchestra
 
     public function getEnvironmentSetUp($app)
     {
-        config()->set('database.default', 'testing');
+        // config()->set('database.default', 'testing');
     }
 }

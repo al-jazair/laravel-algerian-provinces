@@ -16,7 +16,6 @@ class WilayaServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('algerian-provinces')
-            ->hasConfigFile()
-            ->hasMigration('create_wilayas_table');
+            ->hasConfigFile();
     }
 }

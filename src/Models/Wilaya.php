@@ -3,19 +3,25 @@
 namespace ElaborateCode\AlgerianProvinces\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Sushi\Sushi;
 
 class Wilaya extends Model
 {
-    use \Sushi\Sushi;
+    use Sushi;
+
+    public $timestamps = false;
 
     protected $fillable = [];
 
-    protected $rows = [];
-
-    public function __construct(array $attributes = [])
+    public function getRows(): array
     {
-        parent::__construct($attributes);
+        $rows = require __DIR__.'./../../arrays/wilayas.php';
 
-        $this->rows = require __DIR__.'./../../arrays/wilayas.php';
+        return $rows;
     }
+
+    // protected function sushiShouldCache(): bool
+    // {
+    //     return true;
+    // }
 }
