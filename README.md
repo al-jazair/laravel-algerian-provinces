@@ -14,7 +14,7 @@
 Install the package via composer:
 
 ```bash
-composer require medilies/laravel-algerian-provinces
+composer require medilies/laravel-algerian-provinces=v1.0.0
 ```
 
 Publish the migration:
