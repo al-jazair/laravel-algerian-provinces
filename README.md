@@ -65,12 +65,16 @@ namespace App\Models;
 
 use ElaborateCode\AlgerianProvinces\Models\Wilaya;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class Student extends Model
+class User extends Model
 {
-    public function birthWilaya()
+
+    // use as relationship
+    
+    public function birthWilaya(): BelongsTo
     {
-        return $this->belongsTo(Wilaya::class, 'birth_wilaya', config('algerian-provinces.columns_names.fr_name') ?? 'fr_name');
+        return $this->belongsTo(Wilaya::class, 'birth_wilaya', 'fr_name');
     }
 }
 ```
