@@ -55,9 +55,9 @@ $wilayas = Wilaya::find(31); // Model of: ["id" => 31, "fr_name" => "Oran", "ar_
 
 $wilayas = Wilaya::arr(); // Wilaya::all()->toArray()
 
-$fr_names = Wilaya::frNames() // Wilaya::pluck('fr_name')
+$fr_names = Wilaya::frNames(); // Wilaya::pluck('fr_name')
 
-$ar_names = Wilaya::arNames() // Wilaya::pluck('ar_name')
+$ar_names = Wilaya::arNames(); // Wilaya::pluck('ar_name')
 ```
 
 ```php
@@ -69,7 +69,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class User extends Model
 {
-
     // use as relationship
     
     public function birthWilaya(): BelongsTo
