@@ -27,12 +27,12 @@ class Wilaya extends Model
 
     public static function frNames()
     {
-        return self::pluck(config('algerian-provinces.columns_names.wilaya_fr_name') ?? 'fr_name');
+        return self::pluck(config('algerian-provinces.columns_names.fr_name') ?? 'fr_name');
     }
 
     public static function arNames()
     {
-        return self::pluck(config('algerian-provinces.columns_names.wilaya_fr_name') ?? 'ar_name');
+        return self::pluck(config('algerian-provinces.columns_names.fr_name') ?? 'ar_name');
     }
 
     // protected function sushiShouldCache(): bool

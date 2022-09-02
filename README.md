@@ -30,8 +30,8 @@ This is the contents of the published config file:
 ```php
 return [
     'columns_names' => [
-        'wilaya_fr_name' => null, // defaults to fr_name
-        'wilaya_ar_name' => null, // defaults to ar_name
+        'fr_name' => null, // defaults to fr_name
+        'ar_name' => null, // defaults to ar_name
     ],
 ];
 ```
@@ -66,7 +66,7 @@ class Student extends Model
 {
     public function birthWilaya()
     {
-        return $this->belongsTo(Wilaya::class, 'birth_wilaya', config('algerian-provinces.columns_names.wilaya_fr_name') ?? 'fr_name');
+        return $this->belongsTo(Wilaya::class, 'birth_wilaya', config('algerian-provinces.columns_names.fr_name') ?? 'fr_name');
     }
 }
 ```
