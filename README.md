@@ -17,6 +17,10 @@ Install the package via composer:
 composer require medilies/laravel-algerian-provinces
 ```
 
+Requirements:
+
+1. SQLite.
+
 ### Publishing config file [Optional]
 
 You can publish the config file with:
@@ -73,7 +77,11 @@ class Student extends Model
 
 ## Sushi
 
-This package requires 0 config, and comes with no migrations or seeders thanks to the wonderful package [calebporzio/sushi](https://github.com/calebporzio/sushi). That allows us to offer a ready to use model without going the extra steps of affecting your database. If you prefer having a table in you database checkout [v1](https://github.com/elaborate-code/laravel-algerian-provinces/tree/v1-migration)
+This package requires 0 config, and comes with no migrations or seeders thanks to the wonderful package [calebporzio/sushi](https://github.com/calebporzio/sushi). That allows us to offer a ready to use model without going the extra steps of affecting your database.
+
+> However this dependency requires SQLite to be setup on your system!
+
+If you prefer having a table in your database checkout [v1](https://github.com/elaborate-code/laravel-algerian-provinces/tree/v1-migration) which doesn't depand on calebporzio/sushi.
 
 ## Testing
 
