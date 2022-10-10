@@ -14,7 +14,7 @@
 Install the package via composer:
 
 ```bash
-composer require medilies/laravel-algerian-provinces
+composer require elaborate-code/laravel-algerian-provinces
 ```
 
 Requirements:
